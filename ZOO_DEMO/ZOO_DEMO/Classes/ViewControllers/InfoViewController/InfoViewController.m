@@ -1,33 +1,34 @@
 //
-//  FirstViewController.m
+//  InfoViewController.m
 //  ZOO_DEMO
 //
-//  Created by Valeriy Zinchenko on 06.05.13.
+//  Created by Evgeniy Tka4enko on 06.05.13.
 //  Copyright (c) 2013 vexadev. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "InfoViewController.h"
 
-@interface FirstViewController ()
+@interface InfoViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation InfoViewController
+
+#pragma mark - View lifecircle
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.title = @"Инфо";
     }
     return self;
 }
-							
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,5 +36,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - Public
+
+#pragma mark - Private
+
+#pragma mark - Actions
 
 @end

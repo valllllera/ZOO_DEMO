@@ -10,20 +10,23 @@
 		8C3CB28C1737C61100F57852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28B1737C61100F57852 /* UIKit.framework */; };
 		8C3CB28E1737C61100F57852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28D1737C61100F57852 /* Foundation.framework */; };
 		8C3CB2901737C61100F57852 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28F1737C61100F57852 /* CoreGraphics.framework */; };
-		8C3CB2961737C61100F57852 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB2941737C61100F57852 /* InfoPlist.strings */; };
-		8C3CB2981737C61100F57852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CB2971737C61100F57852 /* main.m */; };
-		8C3CB29C1737C61100F57852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CB29B1737C61100F57852 /* AppDelegate.m */; };
-		8C3CB29E1737C61100F57852 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB29D1737C61100F57852 /* Default.png */; };
-		8C3CB2A01737C61100F57852 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB29F1737C61100F57852 /* Default@2x.png */; };
-		8C3CB2A21737C61100F57852 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB2A11737C61100F57852 /* Default-568h@2x.png */; };
-		8C3CB2A51737C61100F57852 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CB2A41737C61100F57852 /* FirstViewController.m */; };
-		8C3CB2A71737C61100F57852 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB2A61737C61100F57852 /* first.png */; };
-		8C3CB2A91737C61100F57852 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB2A81737C61100F57852 /* first@2x.png */; };
-		8C3CB2AC1737C61100F57852 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CB2AB1737C61100F57852 /* SecondViewController.m */; };
-		8C3CB2AE1737C61100F57852 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB2AD1737C61100F57852 /* second.png */; };
-		8C3CB2B01737C61100F57852 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB2AF1737C61100F57852 /* second@2x.png */; };
-		8C3CB2B31737C61100F57852 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB2B11737C61100F57852 /* FirstViewController.xib */; };
-		8C3CB2B61737C61100F57852 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CB2B41737C61100F57852 /* SecondViewController.xib */; };
+		D55DE12B1737FD4D00F1A8BC /* NSNumber+ext.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE1131737FD4D00F1A8BC /* NSNumber+ext.m */; };
+		D55DE12C1737FD4D00F1A8BC /* UIView+ext.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE1151737FD4D00F1A8BC /* UIView+ext.m */; };
+		D55DE12D1737FD4D00F1A8BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE1171737FD4D00F1A8BC /* AppDelegate.m */; };
+		D55DE12E1737FD4D00F1A8BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE11A1737FD4D00F1A8BC /* main.m */; };
+		D55DE12F1737FD4D00F1A8BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D55DE1241737FD4D00F1A8BC /* Default-568h@2x.png */; };
+		D55DE1301737FD4D00F1A8BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D55DE1251737FD4D00F1A8BC /* Default.png */; };
+		D55DE1311737FD4D00F1A8BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D55DE1261737FD4D00F1A8BC /* Default@2x.png */; };
+		D55DE1321737FD4D00F1A8BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D55DE1281737FD4D00F1A8BC /* InfoPlist.strings */; };
+		D55DE1381737FFC500F1A8BC /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE1361737FFC500F1A8BC /* QRViewController.m */; };
+		D55DE1391737FFC500F1A8BC /* QRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55DE1371737FFC500F1A8BC /* QRViewController.xib */; };
+		D55DE13E1738005400F1A8BC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE13C1738005400F1A8BC /* MapViewController.m */; };
+		D55DE13F1738005400F1A8BC /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55DE13D1738005400F1A8BC /* MapViewController.xib */; };
+		D55DE1441738007400F1A8BC /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE1421738007400F1A8BC /* InfoViewController.m */; };
+		D55DE1451738007400F1A8BC /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55DE1431738007400F1A8BC /* InfoViewController.xib */; };
+		D55DE14A173800A900F1A8BC /* AnimalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE148173800A900F1A8BC /* AnimalsViewController.m */; };
+		D55DE14B173800A900F1A8BC /* AnimalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55DE149173800A900F1A8BC /* AnimalsViewController.xib */; };
+		D55DE14D1738031200F1A8BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55DE14C1738031200F1A8BC /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,25 +34,32 @@
 		8C3CB28B1737C61100F57852 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C3CB28D1737C61100F57852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C3CB28F1737C61100F57852 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8C3CB2931737C61100F57852 /* ZOO_DEMO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZOO_DEMO-Info.plist"; sourceTree = "<group>"; };
-		8C3CB2951737C61100F57852 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8C3CB2971737C61100F57852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8C3CB2991737C61100F57852 /* ZOO_DEMO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZOO_DEMO-Prefix.pch"; sourceTree = "<group>"; };
-		8C3CB29A1737C61100F57852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8C3CB29B1737C61100F57852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C3CB29D1737C61100F57852 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8C3CB29F1737C61100F57852 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8C3CB2A11737C61100F57852 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8C3CB2A31737C61100F57852 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		8C3CB2A41737C61100F57852 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8C3CB2A61737C61100F57852 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		8C3CB2A81737C61100F57852 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		8C3CB2AA1737C61100F57852 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		8C3CB2AB1737C61100F57852 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8C3CB2AD1737C61100F57852 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		8C3CB2AF1737C61100F57852 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		8C3CB2B21737C61100F57852 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		8C3CB2B51737C61100F57852 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		D55DE1121737FD4D00F1A8BC /* NSNumber+ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ext.h"; sourceTree = "<group>"; };
+		D55DE1131737FD4D00F1A8BC /* NSNumber+ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ext.m"; sourceTree = "<group>"; };
+		D55DE1141737FD4D00F1A8BC /* UIView+ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ext.h"; sourceTree = "<group>"; };
+		D55DE1151737FD4D00F1A8BC /* UIView+ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ext.m"; sourceTree = "<group>"; };
+		D55DE1161737FD4D00F1A8BC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D55DE1171737FD4D00F1A8BC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D55DE1191737FD4D00F1A8BC /* Macroses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macroses.h; sourceTree = "<group>"; };
+		D55DE11A1737FD4D00F1A8BC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D55DE1211737FD4D00F1A8BC /* ZOO_DEMO-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZOO_DEMO-Prefix.pch"; sourceTree = "<group>"; };
+		D55DE1241737FD4D00F1A8BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D55DE1251737FD4D00F1A8BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D55DE1261737FD4D00F1A8BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D55DE1291737FD4D00F1A8BC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D55DE1351737FFC500F1A8BC /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRViewController.h; path = QRViewController/QRViewController.h; sourceTree = "<group>"; };
+		D55DE1361737FFC500F1A8BC /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRViewController.m; path = QRViewController/QRViewController.m; sourceTree = "<group>"; };
+		D55DE1371737FFC500F1A8BC /* QRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QRViewController.xib; path = QRViewController/QRViewController.xib; sourceTree = "<group>"; };
+		D55DE13B1738005400F1A8BC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = MapViewController/MapViewController.h; sourceTree = "<group>"; };
+		D55DE13C1738005400F1A8BC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = MapViewController/MapViewController.m; sourceTree = "<group>"; };
+		D55DE13D1738005400F1A8BC /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = MapViewController/MapViewController.xib; sourceTree = "<group>"; };
+		D55DE1411738007400F1A8BC /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = InfoViewController/InfoViewController.h; sourceTree = "<group>"; };
+		D55DE1421738007400F1A8BC /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = InfoViewController/InfoViewController.m; sourceTree = "<group>"; };
+		D55DE1431738007400F1A8BC /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoViewController.xib; path = InfoViewController/InfoViewController.xib; sourceTree = "<group>"; };
+		D55DE147173800A900F1A8BC /* AnimalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalsViewController.h; path = AnimalsViewController/AnimalsViewController.h; sourceTree = "<group>"; };
+		D55DE148173800A900F1A8BC /* AnimalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalsViewController.m; path = AnimalsViewController/AnimalsViewController.m; sourceTree = "<group>"; };
+		D55DE149173800A900F1A8BC /* AnimalsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AnimalsViewController.xib; path = AnimalsViewController/AnimalsViewController.xib; sourceTree = "<group>"; };
+		D55DE14C1738031200F1A8BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55DE14D1738031200F1A8BC /* MapKit.framework in Frameworks */,
 				8C3CB28C1737C61100F57852 /* UIKit.framework in Frameworks */,
 				8C3CB28E1737C61100F57852 /* Foundation.framework in Frameworks */,
 				8C3CB2901737C61100F57852 /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +97,7 @@
 		8C3CB28A1737C61100F57852 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D55DE14C1738031200F1A8BC /* MapKit.framework */,
 				8C3CB28B1737C61100F57852 /* UIKit.framework */,
 				8C3CB28D1737C61100F57852 /* Foundation.framework */,
 				8C3CB28F1737C61100F57852 /* CoreGraphics.framework */,
@@ -96,35 +108,161 @@
 		8C3CB2911737C61100F57852 /* ZOO_DEMO */ = {
 			isa = PBXGroup;
 			children = (
-				8C3CB29A1737C61100F57852 /* AppDelegate.h */,
-				8C3CB29B1737C61100F57852 /* AppDelegate.m */,
-				8C3CB2A31737C61100F57852 /* FirstViewController.h */,
-				8C3CB2A41737C61100F57852 /* FirstViewController.m */,
-				8C3CB2A61737C61100F57852 /* first.png */,
-				8C3CB2A81737C61100F57852 /* first@2x.png */,
-				8C3CB2AA1737C61100F57852 /* SecondViewController.h */,
-				8C3CB2AB1737C61100F57852 /* SecondViewController.m */,
-				8C3CB2AD1737C61100F57852 /* second.png */,
-				8C3CB2AF1737C61100F57852 /* second@2x.png */,
-				8C3CB2B11737C61100F57852 /* FirstViewController.xib */,
-				8C3CB2B41737C61100F57852 /* SecondViewController.xib */,
-				8C3CB2921737C61100F57852 /* Supporting Files */,
+				D55DE1101737FD4D00F1A8BC /* Classes */,
+				D55DE1221737FD4D00F1A8BC /* Resources */,
+				D55DE1271737FD4D00F1A8BC /* Supporting Files */,
 			);
 			path = ZOO_DEMO;
 			sourceTree = "<group>";
 		};
-		8C3CB2921737C61100F57852 /* Supporting Files */ = {
+		D55DE1101737FD4D00F1A8BC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8C3CB2931737C61100F57852 /* ZOO_DEMO-Info.plist */,
-				8C3CB2941737C61100F57852 /* InfoPlist.strings */,
-				8C3CB2971737C61100F57852 /* main.m */,
-				8C3CB2991737C61100F57852 /* ZOO_DEMO-Prefix.pch */,
-				8C3CB29D1737C61100F57852 /* Default.png */,
-				8C3CB29F1737C61100F57852 /* Default@2x.png */,
-				8C3CB2A11737C61100F57852 /* Default-568h@2x.png */,
+				D55DE1111737FD4D00F1A8BC /* Additions */,
+				D55DE1181737FD4D00F1A8BC /* Libs */,
+				D55DE11B1737FD4D00F1A8BC /* Model */,
+				D55DE11F1737FD4D00F1A8BC /* ViewControllers */,
+				D55DE1201737FD4D00F1A8BC /* Views */,
+				D55DE1161737FD4D00F1A8BC /* AppDelegate.h */,
+				D55DE1171737FD4D00F1A8BC /* AppDelegate.m */,
+				D55DE11A1737FD4D00F1A8BC /* main.m */,
+				D55DE1211737FD4D00F1A8BC /* ZOO_DEMO-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D55DE1111737FD4D00F1A8BC /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE1121737FD4D00F1A8BC /* NSNumber+ext.h */,
+				D55DE1131737FD4D00F1A8BC /* NSNumber+ext.m */,
+				D55DE1141737FD4D00F1A8BC /* UIView+ext.h */,
+				D55DE1151737FD4D00F1A8BC /* UIView+ext.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		D55DE1181737FD4D00F1A8BC /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE1191737FD4D00F1A8BC /* Macroses.h */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		D55DE11B1737FD4D00F1A8BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE11C1737FD4D00F1A8BC /* Common */,
+				D55DE11D1737FD4D00F1A8BC /* Managers */,
+				D55DE11E1737FD4D00F1A8BC /* Models */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D55DE11C1737FD4D00F1A8BC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D55DE11D1737FD4D00F1A8BC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D55DE11E1737FD4D00F1A8BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D55DE11F1737FD4D00F1A8BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE1461738009500F1A8BC /* AnimalsViewController */,
+				D55DE1401738006100F1A8BC /* InfoViewController */,
+				D55DE13A1738004100F1A8BC /* MapViewController */,
+				D55DE1341737FF7E00F1A8BC /* QRViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D55DE1201737FD4D00F1A8BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D55DE1221737FD4D00F1A8BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE1231737FD4D00F1A8BC /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D55DE1231737FD4D00F1A8BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE1241737FD4D00F1A8BC /* Default-568h@2x.png */,
+				D55DE1251737FD4D00F1A8BC /* Default.png */,
+				D55DE1261737FD4D00F1A8BC /* Default@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D55DE1271737FD4D00F1A8BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE1281737FD4D00F1A8BC /* InfoPlist.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D55DE1341737FF7E00F1A8BC /* QRViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE1351737FFC500F1A8BC /* QRViewController.h */,
+				D55DE1361737FFC500F1A8BC /* QRViewController.m */,
+				D55DE1371737FFC500F1A8BC /* QRViewController.xib */,
+			);
+			name = QRViewController;
+			sourceTree = "<group>";
+		};
+		D55DE13A1738004100F1A8BC /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE13B1738005400F1A8BC /* MapViewController.h */,
+				D55DE13C1738005400F1A8BC /* MapViewController.m */,
+				D55DE13D1738005400F1A8BC /* MapViewController.xib */,
+			);
+			name = MapViewController;
+			sourceTree = "<group>";
+		};
+		D55DE1401738006100F1A8BC /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE1411738007400F1A8BC /* InfoViewController.h */,
+				D55DE1421738007400F1A8BC /* InfoViewController.m */,
+				D55DE1431738007400F1A8BC /* InfoViewController.xib */,
+			);
+			name = InfoViewController;
+			sourceTree = "<group>";
+		};
+		D55DE1461738009500F1A8BC /* AnimalsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D55DE147173800A900F1A8BC /* AnimalsViewController.h */,
+				D55DE148173800A900F1A8BC /* AnimalsViewController.m */,
+				D55DE149173800A900F1A8BC /* AnimalsViewController.xib */,
+			);
+			name = AnimalsViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +300,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = 8C3CB27F1737C61100F57852;
 			productRefGroup = 8C3CB2891737C61100F57852 /* Products */;
@@ -178,16 +317,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3CB2961737C61100F57852 /* InfoPlist.strings in Resources */,
-				8C3CB29E1737C61100F57852 /* Default.png in Resources */,
-				8C3CB2A01737C61100F57852 /* Default@2x.png in Resources */,
-				8C3CB2A21737C61100F57852 /* Default-568h@2x.png in Resources */,
-				8C3CB2A71737C61100F57852 /* first.png in Resources */,
-				8C3CB2A91737C61100F57852 /* first@2x.png in Resources */,
-				8C3CB2AE1737C61100F57852 /* second.png in Resources */,
-				8C3CB2B01737C61100F57852 /* second@2x.png in Resources */,
-				8C3CB2B31737C61100F57852 /* FirstViewController.xib in Resources */,
-				8C3CB2B61737C61100F57852 /* SecondViewController.xib in Resources */,
+				D55DE12F1737FD4D00F1A8BC /* Default-568h@2x.png in Resources */,
+				D55DE1301737FD4D00F1A8BC /* Default.png in Resources */,
+				D55DE1311737FD4D00F1A8BC /* Default@2x.png in Resources */,
+				D55DE1321737FD4D00F1A8BC /* InfoPlist.strings in Resources */,
+				D55DE1391737FFC500F1A8BC /* QRViewController.xib in Resources */,
+				D55DE13F1738005400F1A8BC /* MapViewController.xib in Resources */,
+				D55DE1451738007400F1A8BC /* InfoViewController.xib in Resources */,
+				D55DE14B173800A900F1A8BC /* AnimalsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,38 +335,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3CB2981737C61100F57852 /* main.m in Sources */,
-				8C3CB29C1737C61100F57852 /* AppDelegate.m in Sources */,
-				8C3CB2A51737C61100F57852 /* FirstViewController.m in Sources */,
-				8C3CB2AC1737C61100F57852 /* SecondViewController.m in Sources */,
+				D55DE12B1737FD4D00F1A8BC /* NSNumber+ext.m in Sources */,
+				D55DE12C1737FD4D00F1A8BC /* UIView+ext.m in Sources */,
+				D55DE12D1737FD4D00F1A8BC /* AppDelegate.m in Sources */,
+				D55DE12E1737FD4D00F1A8BC /* main.m in Sources */,
+				D55DE1381737FFC500F1A8BC /* QRViewController.m in Sources */,
+				D55DE13E1738005400F1A8BC /* MapViewController.m in Sources */,
+				D55DE1441738007400F1A8BC /* InfoViewController.m in Sources */,
+				D55DE14A173800A900F1A8BC /* AnimalsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C3CB2941737C61100F57852 /* InfoPlist.strings */ = {
+		D55DE1281737FD4D00F1A8BC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8C3CB2951737C61100F57852 /* en */,
+				D55DE1291737FD4D00F1A8BC /* ru */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8C3CB2B11737C61100F57852 /* FirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C3CB2B21737C61100F57852 /* en */,
-			);
-			name = FirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		8C3CB2B41737C61100F57852 /* SecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C3CB2B51737C61100F57852 /* en */,
-			);
-			name = SecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,8 +420,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZOO_DEMO/ZOO_DEMO-Prefix.pch";
-				INFOPLIST_FILE = "ZOO_DEMO/ZOO_DEMO-Info.plist";
+				GCC_PREFIX_HEADER = "ZOO_DEMO/Classes/ZOO_DEMO-Prefix.pch";
+				INFOPLIST_FILE = "ZOO_DEMO/Supporting Files/ZOO_DEMO-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -306,8 +431,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZOO_DEMO/ZOO_DEMO-Prefix.pch";
-				INFOPLIST_FILE = "ZOO_DEMO/ZOO_DEMO-Info.plist";
+				GCC_PREFIX_HEADER = "ZOO_DEMO/Classes/ZOO_DEMO-Prefix.pch";
+				INFOPLIST_FILE = "ZOO_DEMO/Supporting Files/ZOO_DEMO-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -332,6 +457,7 @@
 				8C3CB2BB1737C61100F57852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
