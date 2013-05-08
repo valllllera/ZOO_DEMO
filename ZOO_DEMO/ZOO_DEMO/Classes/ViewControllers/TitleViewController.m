@@ -17,13 +17,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        self.title = @"О зоопарке";
-        self.navigationItem.title = @"";
-        
-      
-        
-                
+    if (self) {        
         
     }
     return self;
@@ -33,21 +27,10 @@
 {
     [super viewDidLoad];
     
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(120, -5, 120, 30)];
-    label.text = @"Харьковский";
-    label.backgroundColor  = [UIColor clearColor];
-    [label setFont:[UIFont fontWithName:@"OpenSans-LightItalic" size:12]];
-    label.textColor = [UIColor whiteColor];
-    [self.navigationController.navigationBar addSubview:label];
     
-    UILabel *labelZoo = [[UILabel alloc]initWithFrame:CGRectMake(140, 15, 90, 30)];
-    labelZoo.text = @"зоопарк";
-    //[labelZoo setFont:[UIFont fontWithName:@"OpenSans-LightItalic" size:12]];
-    labelZoo.textColor = [UIColor whiteColor];
-    labelZoo.backgroundColor  = [UIColor clearColor];
-    [self.navigationController.navigationBar addSubview:labelZoo];
+   
     
-    
+
 
 }
 

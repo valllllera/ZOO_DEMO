@@ -20,7 +20,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"Сканировать";
+       // self.title = @"Сканировать";
     }
     return self;
 }
@@ -28,7 +28,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(110, -5, 120, 30)];
+    label.text = @"Харьковский";
+    label.backgroundColor  = [UIColor clearColor];
+    [label setFont:[UIFont fontWithName:@"OpenSans-LightItalic" size:12]];
+    label.textColor = [UIColor whiteColor];
+    [self.navigationController.navigationBar addSubview:label];
+    
+    UILabel *labelZoo = [[UILabel alloc]initWithFrame:CGRectMake(130, 15, 90, 30)];
+    labelZoo.text = @"зоопарк";
+    [labelZoo setFont:[UIFont fontWithName:@"OpenSans-LightItalic" size:12]];
+    labelZoo.textColor = [UIColor whiteColor];
+    labelZoo.backgroundColor  = [UIColor clearColor];
+    [self.navigationController.navigationBar addSubview:labelZoo];
+    UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:infoButton];
+    
 }
 
 - (void)didReceiveMemoryWarning

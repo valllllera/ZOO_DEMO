@@ -29,17 +29,24 @@
     
     AnimalsViewController *animalsViewController = [[AnimalsViewController alloc] init];
     
-    TitleViewController *titleView=[[TitleViewController alloc]init];
-    [self customize];
+
+   
     
-    _tabBarController.viewControllers = @[[[UINavigationController alloc] initWithRootViewController:titleView], qrViewController, animalsViewController,mapViewController];
+    
+    _tabBarController.viewControllers = @[[[UINavigationController alloc] initWithRootViewController: qrViewController], [[UINavigationController alloc] initWithRootViewController: animalsViewController],[[UINavigationController alloc] initWithRootViewController: mapViewController]];
+    
+    
+    
     
     self.window.rootViewController = _tabBarController;
      [self.window makeKeyAndVisible];
+     [self customize];
     return YES;
 }
 -(void)customize
 {
+
+    
     [[UINavigationBar appearance] setBackgroundImage:[[UIImage imageNamed:@"navigation_background@2x.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(50, 80, 0, 0)] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], UITextAttributeTextColor, nil]];
     NSDictionary *navbarTitleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -47,6 +54,7 @@
                                                [UIColor darkGrayColor], UITextAttributeTextShadowColor,
                                                [NSValue valueWithUIOffset:UIOffsetMake(0, 1)], UITextAttributeTextShadowOffset, nil];
     [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
