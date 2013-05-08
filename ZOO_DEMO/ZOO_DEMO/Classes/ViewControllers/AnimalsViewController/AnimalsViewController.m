@@ -44,7 +44,7 @@
     labelZoo.backgroundColor  = [UIColor clearColor];
     [self.navigationController.navigationBar addSubview:labelZoo];
     UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
-    
+    [infoButton addTarget:self action:@selector(infoButtonClick)forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:infoButton];;
 }
 
@@ -61,11 +61,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"NotesCell";
+    static NSString *CellIdentifier = @"AnimalCell";
     
     AnimalCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"NotesCell" owner:nil options:nil]objectAtIndex:0];
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"AnimalCell" owner:nil options:nil]objectAtIndex:0];
     }
     
     
