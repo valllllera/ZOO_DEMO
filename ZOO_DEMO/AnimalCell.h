@@ -1,5 +1,5 @@
 //
-//  TitleViewController.h
+//  AnimalCell.h
 //  ZOO_DEMO
 //
 //  Created by Alexandr Kolesnik on 08.05.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TitleViewController : UIViewController
+@interface AnimalCell : UITableViewCell
 
 @end

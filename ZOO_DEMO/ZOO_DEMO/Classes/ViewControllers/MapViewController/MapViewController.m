@@ -42,8 +42,14 @@
     labelZoo.backgroundColor  = [UIColor clearColor];
     [self.navigationController.navigationBar addSubview:labelZoo];
     UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
-    
+    [infoButton addTarget:self action:@selector(infoButtonClick:)forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:infoButton];
+    
+    
+}
+
+-(void)infoButtonClick 
+{
     
 }
 

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085AC91F173A6AE2000715A1 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085AC91D173A6AE2000715A1 /* TitleViewController.m */; };
-		085AC920173A6AE2000715A1 /* TitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085AC91E173A6AE2000715A1 /* TitleViewController.xib */; };
 		085AC927173A7546000715A1 /* navigation_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC921173A7546000715A1 /* navigation_background.png */; };
 		085AC928173A7546000715A1 /* navigation_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC922173A7546000715A1 /* navigation_background@2x.png */; };
 		085AC929173A7546000715A1 /* editButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC923173A7546000715A1 /* editButton.png */; };
@@ -16,6 +14,8 @@
 		085AC92B173A7546000715A1 /* navigation_menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC925173A7546000715A1 /* navigation_menu_button.png */; };
 		085AC92C173A7546000715A1 /* navigation_menu_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC926173A7546000715A1 /* navigation_menu_button@2x.png */; };
 		085AC933173A951E000715A1 /* Information.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC932173A951D000715A1 /* Information.png */; };
+		085AC936173AA41A000715A1 /* AnimalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085AC935173AA41A000715A1 /* AnimalCell.xib */; };
+		085AC939173AA456000715A1 /* AnimalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085AC938173AA456000715A1 /* AnimalCell.m */; };
 		8C3CB28C1737C61100F57852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28B1737C61100F57852 /* UIKit.framework */; };
 		8C3CB28E1737C61100F57852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28D1737C61100F57852 /* Foundation.framework */; };
 		8C3CB2901737C61100F57852 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28F1737C61100F57852 /* CoreGraphics.framework */; };
@@ -39,9 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		085AC91C173A6AE2000715A1 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
-		085AC91D173A6AE2000715A1 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
-		085AC91E173A6AE2000715A1 /* TitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleViewController.xib; sourceTree = "<group>"; };
 		085AC921173A7546000715A1 /* navigation_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_background.png; sourceTree = "<group>"; };
 		085AC922173A7546000715A1 /* navigation_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_background@2x.png"; sourceTree = "<group>"; };
 		085AC923173A7546000715A1 /* editButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editButton.png; sourceTree = "<group>"; };
@@ -49,6 +46,9 @@
 		085AC925173A7546000715A1 /* navigation_menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_menu_button.png; sourceTree = "<group>"; };
 		085AC926173A7546000715A1 /* navigation_menu_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_menu_button@2x.png"; sourceTree = "<group>"; };
 		085AC932173A951D000715A1 /* Information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Information.png; sourceTree = "<group>"; };
+		085AC935173AA41A000715A1 /* AnimalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalCell.xib; sourceTree = SOURCE_ROOT; };
+		085AC937173AA456000715A1 /* AnimalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalCell.h; sourceTree = SOURCE_ROOT; };
+		085AC938173AA456000715A1 /* AnimalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalCell.m; sourceTree = SOURCE_ROOT; };
 		8C3CB2881737C61100F57852 /* ZOO_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOO_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3CB28B1737C61100F57852 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C3CB28D1737C61100F57852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,14 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		085AC91B173A6A8D000715A1 /* TitleViewController */ = {
+		085AC934173AA3F9000715A1 /* AnimalCell */ = {
 			isa = PBXGroup;
 			children = (
-				085AC91C173A6AE2000715A1 /* TitleViewController.h */,
-				085AC91D173A6AE2000715A1 /* TitleViewController.m */,
-				085AC91E173A6AE2000715A1 /* TitleViewController.xib */,
+				085AC935173AA41A000715A1 /* AnimalCell.xib */,
+				085AC937173AA456000715A1 /* AnimalCell.h */,
+				085AC938173AA456000715A1 /* AnimalCell.m */,
 			);
-			name = TitleViewController;
+			name = AnimalCell;
 			sourceTree = "<group>";
 		};
 		8C3CB27F1737C61100F57852 = {
@@ -213,7 +213,6 @@
 		D55DE11F1737FD4D00F1A8BC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				085AC91B173A6A8D000715A1 /* TitleViewController */,
 				D55DE1461738009500F1A8BC /* AnimalsViewController */,
 				D55DE1401738006100F1A8BC /* InfoViewController */,
 				D55DE13A1738004100F1A8BC /* MapViewController */,
@@ -225,6 +224,7 @@
 		D55DE1201737FD4D00F1A8BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				085AC934173AA3F9000715A1 /* AnimalCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -362,7 +362,6 @@
 				D55DE13F1738005400F1A8BC /* MapViewController.xib in Resources */,
 				D55DE1451738007400F1A8BC /* InfoViewController.xib in Resources */,
 				D55DE14B173800A900F1A8BC /* AnimalsViewController.xib in Resources */,
-				085AC920173A6AE2000715A1 /* TitleViewController.xib in Resources */,
 				085AC927173A7546000715A1 /* navigation_background.png in Resources */,
 				085AC928173A7546000715A1 /* navigation_background@2x.png in Resources */,
 				085AC929173A7546000715A1 /* editButton.png in Resources */,
@@ -370,6 +369,7 @@
 				085AC92B173A7546000715A1 /* navigation_menu_button.png in Resources */,
 				085AC92C173A7546000715A1 /* navigation_menu_button@2x.png in Resources */,
 				085AC933173A951E000715A1 /* Information.png in Resources */,
+				085AC936173AA41A000715A1 /* AnimalCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +388,7 @@
 				D55DE13E1738005400F1A8BC /* MapViewController.m in Sources */,
 				D55DE1441738007400F1A8BC /* InfoViewController.m in Sources */,
 				D55DE14A173800A900F1A8BC /* AnimalsViewController.m in Sources */,
-				085AC91F173A6AE2000715A1 /* TitleViewController.m in Sources */,
+				085AC939173AA456000715A1 /* AnimalCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
