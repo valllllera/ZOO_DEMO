@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085AC91F173A6AE2000715A1 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085AC91D173A6AE2000715A1 /* TitleViewController.m */; };
+		085AC920173A6AE2000715A1 /* TitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085AC91E173A6AE2000715A1 /* TitleViewController.xib */; };
+		085AC927173A7546000715A1 /* navigation_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC921173A7546000715A1 /* navigation_background.png */; };
+		085AC928173A7546000715A1 /* navigation_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC922173A7546000715A1 /* navigation_background@2x.png */; };
+		085AC929173A7546000715A1 /* editButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC923173A7546000715A1 /* editButton.png */; };
+		085AC92A173A7546000715A1 /* editButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC924173A7546000715A1 /* editButton@2x.png */; };
+		085AC92B173A7546000715A1 /* navigation_menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC925173A7546000715A1 /* navigation_menu_button.png */; };
+		085AC92C173A7546000715A1 /* navigation_menu_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC926173A7546000715A1 /* navigation_menu_button@2x.png */; };
 		8C3CB28C1737C61100F57852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28B1737C61100F57852 /* UIKit.framework */; };
 		8C3CB28E1737C61100F57852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28D1737C61100F57852 /* Foundation.framework */; };
 		8C3CB2901737C61100F57852 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28F1737C61100F57852 /* CoreGraphics.framework */; };
@@ -30,6 +38,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		085AC91C173A6AE2000715A1 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		085AC91D173A6AE2000715A1 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		085AC91E173A6AE2000715A1 /* TitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleViewController.xib; sourceTree = "<group>"; };
+		085AC921173A7546000715A1 /* navigation_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_background.png; sourceTree = "<group>"; };
+		085AC922173A7546000715A1 /* navigation_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_background@2x.png"; sourceTree = "<group>"; };
+		085AC923173A7546000715A1 /* editButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editButton.png; sourceTree = "<group>"; };
+		085AC924173A7546000715A1 /* editButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "editButton@2x.png"; sourceTree = "<group>"; };
+		085AC925173A7546000715A1 /* navigation_menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_menu_button.png; sourceTree = "<group>"; };
+		085AC926173A7546000715A1 /* navigation_menu_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_menu_button@2x.png"; sourceTree = "<group>"; };
 		8C3CB2881737C61100F57852 /* ZOO_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOO_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3CB28B1737C61100F57852 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C3CB28D1737C61100F57852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085AC91B173A6A8D000715A1 /* TitleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				085AC91C173A6AE2000715A1 /* TitleViewController.h */,
+				085AC91D173A6AE2000715A1 /* TitleViewController.m */,
+				085AC91E173A6AE2000715A1 /* TitleViewController.xib */,
+			);
+			name = TitleViewController;
+			sourceTree = "<group>";
+		};
 		8C3CB27F1737C61100F57852 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +211,7 @@
 		D55DE11F1737FD4D00F1A8BC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				085AC91B173A6A8D000715A1 /* TitleViewController */,
 				D55DE1461738009500F1A8BC /* AnimalsViewController */,
 				D55DE1401738006100F1A8BC /* InfoViewController */,
 				D55DE13A1738004100F1A8BC /* MapViewController */,
@@ -210,6 +238,12 @@
 		D55DE1231737FD4D00F1A8BC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				085AC921173A7546000715A1 /* navigation_background.png */,
+				085AC922173A7546000715A1 /* navigation_background@2x.png */,
+				085AC923173A7546000715A1 /* editButton.png */,
+				085AC924173A7546000715A1 /* editButton@2x.png */,
+				085AC925173A7546000715A1 /* navigation_menu_button.png */,
+				085AC926173A7546000715A1 /* navigation_menu_button@2x.png */,
 				D55DE1241737FD4D00F1A8BC /* Default-568h@2x.png */,
 				D55DE1251737FD4D00F1A8BC /* Default.png */,
 				D55DE1261737FD4D00F1A8BC /* Default@2x.png */,
@@ -325,6 +359,13 @@
 				D55DE13F1738005400F1A8BC /* MapViewController.xib in Resources */,
 				D55DE1451738007400F1A8BC /* InfoViewController.xib in Resources */,
 				D55DE14B173800A900F1A8BC /* AnimalsViewController.xib in Resources */,
+				085AC920173A6AE2000715A1 /* TitleViewController.xib in Resources */,
+				085AC927173A7546000715A1 /* navigation_background.png in Resources */,
+				085AC928173A7546000715A1 /* navigation_background@2x.png in Resources */,
+				085AC929173A7546000715A1 /* editButton.png in Resources */,
+				085AC92A173A7546000715A1 /* editButton@2x.png in Resources */,
+				085AC92B173A7546000715A1 /* navigation_menu_button.png in Resources */,
+				085AC92C173A7546000715A1 /* navigation_menu_button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +384,7 @@
 				D55DE13E1738005400F1A8BC /* MapViewController.m in Sources */,
 				D55DE1441738007400F1A8BC /* InfoViewController.m in Sources */,
 				D55DE14A173800A900F1A8BC /* AnimalsViewController.m in Sources */,
+				085AC91F173A6AE2000715A1 /* TitleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

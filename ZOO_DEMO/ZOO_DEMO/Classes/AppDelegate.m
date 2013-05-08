@@ -10,12 +10,16 @@
 #import "QRViewController.h"
 #import "MapViewController.h"
 #import "AnimalsViewController.h"
+#import"TitleViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [self customize];
     
     self.tabBarController = [[UITabBarController alloc] init];
     
@@ -25,11 +29,24 @@
     
     AnimalsViewController *animalsViewController = [[AnimalsViewController alloc] init];
     
-    _tabBarController.viewControllers = @[mapViewController, qrViewController, animalsViewController];
+    TitleViewController *titleView=[[TitleViewController alloc]init];
+    [self customize];
+    
+    _tabBarController.viewControllers = @[[[UINavigationController alloc] initWithRootViewController:titleView], qrViewController, animalsViewController,mapViewController];
     
     self.window.rootViewController = _tabBarController;
-    [self.window makeKeyAndVisible];
+     [self.window makeKeyAndVisible];
     return YES;
+}
+-(void)customize
+{
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage imageNamed:@"navigation_background@2x.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(50, 80, 0, 0)] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], UITextAttributeTextColor, nil]];
+    NSDictionary *navbarTitleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                               [UIColor whiteColor],UITextAttributeTextColor,
+                                               [UIColor darkGrayColor], UITextAttributeTextShadowColor,
+                                               [NSValue valueWithUIOffset:UIOffsetMake(0, 1)], UITextAttributeTextShadowOffset, nil];
+    [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

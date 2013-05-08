@@ -10,4 +10,6 @@
 
 @interface AnimalsViewController : UIViewController
 
+- (IBAction)titleViewPush:(id)sender;
+
 @end

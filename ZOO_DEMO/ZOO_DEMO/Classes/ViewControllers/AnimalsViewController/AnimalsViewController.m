@@ -7,6 +7,7 @@
 //
 
 #import "AnimalsViewController.h"
+#import "TitleViewController.h"
 
 @interface AnimalsViewController ()
 
@@ -43,4 +44,9 @@
 
 #pragma mark - Actions
 
+- (IBAction)titleViewPush:(id)sender
+{
+    TitleViewController *titleview=[[TitleViewController alloc]init];
+    [self.navigationController pushViewController:titleview animated:YES];
+}
 @end
