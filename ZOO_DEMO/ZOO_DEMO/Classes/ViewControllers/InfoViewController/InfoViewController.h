@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InfoViewController : UIViewController
+@interface InfoViewController : UIViewController <UITableViewDelegate , UITableViewDataSource >
+{
+    
+}
+@property (weak, nonatomic) IBOutlet UIScrollView *aboutScrollView;
+@property (assign,nonatomic)   NSArray *animalArray;
+
 
 @end

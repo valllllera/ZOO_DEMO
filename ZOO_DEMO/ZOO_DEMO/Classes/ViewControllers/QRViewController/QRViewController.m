@@ -7,6 +7,7 @@
 //
 
 #import "QRViewController.h"
+#import "InfoViewController.h"
 
 @interface QRViewController ()
 
@@ -58,6 +59,17 @@
 #pragma mark - Public
 
 #pragma mark - Private
+
+-(void)infoButtonClick
+{
+    InfoViewController *infoViewController = [[InfoViewController alloc]init];
+    [UIView animateWithDuration:0.75
+                     animations:^{
+                         [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+                         [self.navigationController pushViewController:infoViewController animated:NO];
+                         [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.navigationController.view cache:NO];
+                     }];
+}
 
 #pragma mark - Actions
 

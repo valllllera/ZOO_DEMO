@@ -7,7 +7,8 @@
 //
 
 #import "AnimalsViewController.h"
-#import "TitleViewController.h"
+#import "AnimalCell.h"
+
 
 @interface AnimalsViewController ()
 
@@ -56,6 +57,31 @@
 #pragma mark - Public
 
 #pragma mark - Private
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"NotesCell";
+    
+    AnimalCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"NotesCell" owner:nil options:nil]objectAtIndex:0];
+    }
+    
+    
+    
+    return cell;
+}
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 4;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 4;
+}
 
 #pragma mark - Actions
 

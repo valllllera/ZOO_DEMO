@@ -10,7 +10,7 @@
 #import "QRViewController.h"
 #import "MapViewController.h"
 #import "AnimalsViewController.h"
-#import"TitleViewController.h"
+
 
 @implementation AppDelegate
 
@@ -33,14 +33,13 @@
    
     
     
-    _tabBarController.viewControllers = @[[[UINavigationController alloc] initWithRootViewController: qrViewController], [[UINavigationController alloc] initWithRootViewController: animalsViewController],[[UINavigationController alloc] initWithRootViewController: mapViewController]];
+    _tabBarController.viewControllers = @[[[UINavigationController alloc] initWithRootViewController: animalsViewController ], [[UINavigationController alloc] initWithRootViewController: qrViewController ],[[UINavigationController alloc] initWithRootViewController: mapViewController]];
     
     
     
     
     self.window.rootViewController = _tabBarController;
      [self.window makeKeyAndVisible];
-     [self customize];
     return YES;
 }
 -(void)customize

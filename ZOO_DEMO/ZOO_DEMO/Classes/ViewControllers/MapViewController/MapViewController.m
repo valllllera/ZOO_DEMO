@@ -7,6 +7,7 @@
 //
 
 #import "MapViewController.h"
+#import "InfoViewController.h"
 
 @interface MapViewController ()
 
@@ -20,8 +21,9 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-      //  self.title = @"Карта";
-    }
+        
+     //   self.tabBarItem.image= [UIImage imageNamed:@"tabbar_map"];
+        }
     return self;
 }
 
@@ -42,16 +44,13 @@
     labelZoo.backgroundColor  = [UIColor clearColor];
     [self.navigationController.navigationBar addSubview:labelZoo];
     UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
-    [infoButton addTarget:self action:@selector(infoButtonClick:)forControlEvents:UIControlEventTouchUpInside];
+    [infoButton addTarget:self action:@selector(infoButtonClick)forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:infoButton];
     
     
 }
 
--(void)infoButtonClick 
-{
-    
-}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -62,6 +61,17 @@
 #pragma mark - Public
 
 #pragma mark - Private
+
+-(void)infoButtonClick
+{
+    InfoViewController *infoViewController = [[InfoViewController alloc]init];
+    [UIView animateWithDuration:0.75
+                     animations:^{
+                         [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+                         [self.navigationController pushViewController:infoViewController animated:NO];
+                         [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.navigationController.view cache:NO];
+                     }];
+}
 
 #pragma mark - Actions
 
