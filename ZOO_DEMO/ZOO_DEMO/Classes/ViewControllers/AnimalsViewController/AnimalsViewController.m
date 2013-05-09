@@ -45,7 +45,7 @@
     [self.navigationController.navigationBar addSubview:labelZoo];
     UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
     [infoButton addTarget:self action:@selector(infoButtonClick)forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:infoButton];;
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:infoButton];
 }
 
 - (void)didReceiveMemoryWarning
@@ -81,6 +81,26 @@
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 4;
+}
+
+-(NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if (section == 0)
+        return @"Млекопитающие";
+    
+    if (section == 1) {
+        return @"Птицы";
+    }
+    
+    if (section == 2) {
+        return @"Рептилии" ;
+    }
+    
+    if (section == 3) {
+        return @"Рыбы";
+    }
+    
+    return @"Bad section";
 }
 
 #pragma mark - Actions

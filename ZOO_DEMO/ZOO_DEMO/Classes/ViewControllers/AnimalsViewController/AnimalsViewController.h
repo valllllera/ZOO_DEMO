@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AnimalsViewController : UIViewController
-
+@interface AnimalsViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+{
+    
+}
+@property (weak, nonatomic) IBOutlet UITableView *animalTableView;
 
 
 @end
