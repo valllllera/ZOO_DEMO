@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AnimalModel.h"
 
 @interface DataManager : NSObject
 {
@@ -14,7 +15,13 @@
     NSArray *birds;
     NSArray *fish;
     NSArray *reptiles;
-  
+    
+    AnimalModel *bird;
+    AnimalModel *reptile;
+    AnimalModel *fishs;
 }
-@property (strong,nonatomic) NSArray *animals;
+@property (strong, nonatomic) AnimalModel *mammal;
+@property (strong, nonatomic) NSArray *animals;
+@property (strong, nonatomic) NSMutableArray *animalArray;
+@property (strong, nonatomic) NSMutableArray *array;
 @end

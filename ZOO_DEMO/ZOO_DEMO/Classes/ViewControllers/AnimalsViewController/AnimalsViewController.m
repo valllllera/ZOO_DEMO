@@ -67,9 +67,6 @@
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"AnimalCell" owner:nil options:nil]objectAtIndex:0];
     }
-    
-    
-    
     return cell;
 }
 

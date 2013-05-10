@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AnimalModel.h"
 
 @interface AnimalCell : UITableViewCell
+
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+@property (retain, nonatomic) IBOutlet UILabel *nameLabel;
 
 @end
