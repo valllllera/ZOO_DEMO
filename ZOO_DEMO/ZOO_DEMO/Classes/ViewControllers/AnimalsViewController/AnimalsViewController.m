@@ -9,7 +9,6 @@
 #import "AnimalsViewController.h"
 #import "AnimalCell.h"
 
-
 @interface AnimalsViewController ()
 
 @end
@@ -64,9 +63,14 @@
     static NSString *CellIdentifier = @"AnimalCell";
     
     AnimalCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
+    if (cell == nil)
+    {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"AnimalCell" owner:nil options:nil]objectAtIndex:0];
     }
+    _model = [[DataManager sharedInstance].array objectAtIndex: indexPath.row + (indexPath.section * 6)];
+    NSLog(@"%@", indexPath);
+    cell.nameLabel.text = _model.name;
+    cell.imageView.image = [UIImage imageNamed:_model.imageName];
     return cell;
 }
 
@@ -77,7 +81,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 6;
 }
 
 -(NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
@@ -98,6 +102,11 @@
     }
     
     return @"Bad section";
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 97.0f;
 }
 
 #pragma mark - Actions

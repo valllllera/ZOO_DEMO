@@ -10,4 +10,6 @@
 
 @interface MapViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *map;
+
 @end

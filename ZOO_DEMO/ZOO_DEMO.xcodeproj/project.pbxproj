@@ -71,6 +71,8 @@
 		CC9BE287173D476400518C9C /* teleskop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9BE27B173D476400518C9C /* teleskop@2x.png */; };
 		CC9BE288173D476400518C9C /* zolotaya.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9BE27C173D476400518C9C /* zolotaya.png */; };
 		CC9BE289173D476400518C9C /* zolotaya@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9BE27D173D476400518C9C /* zolotaya@2x.png */; };
+		CCDD5C8E173FADC100FFC636 /* zoo_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDD5C8C173FADC100FFC636 /* zoo_map.png */; };
+		CCDD5C8F173FADC100FFC636 /* zoo_map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDD5C8D173FADC100FFC636 /* zoo_map@2x.png */; };
 		D55DE12B1737FD4D00F1A8BC /* NSNumber+ext.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE1131737FD4D00F1A8BC /* NSNumber+ext.m */; };
 		D55DE12C1737FD4D00F1A8BC /* UIView+ext.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE1151737FD4D00F1A8BC /* UIView+ext.m */; };
 		D55DE12D1737FD4D00F1A8BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DE1171737FD4D00F1A8BC /* AppDelegate.m */; };
@@ -159,6 +161,8 @@
 		CC9BE27B173D476400518C9C /* teleskop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "teleskop@2x.png"; path = "Fishes/teleskop@2x.png"; sourceTree = "<group>"; };
 		CC9BE27C173D476400518C9C /* zolotaya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zolotaya.png; path = Fishes/zolotaya.png; sourceTree = "<group>"; };
 		CC9BE27D173D476400518C9C /* zolotaya@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zolotaya@2x.png"; path = "Fishes/zolotaya@2x.png"; sourceTree = "<group>"; };
+		CCDD5C8C173FADC100FFC636 /* zoo_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoo_map.png; sourceTree = "<group>"; };
+		CCDD5C8D173FADC100FFC636 /* zoo_map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zoo_map@2x.png"; sourceTree = "<group>"; };
 		D55DE1121737FD4D00F1A8BC /* NSNumber+ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ext.h"; sourceTree = "<group>"; };
 		D55DE1131737FD4D00F1A8BC /* NSNumber+ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ext.m"; sourceTree = "<group>"; };
 		D55DE1141737FD4D00F1A8BC /* UIView+ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ext.h"; sourceTree = "<group>"; };
@@ -434,6 +438,8 @@
 		D55DE1231737FD4D00F1A8BC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CCDD5C8C173FADC100FFC636 /* zoo_map.png */,
+				CCDD5C8D173FADC100FFC636 /* zoo_map@2x.png */,
 				CC9BE28A173D476B00518C9C /* Fishes */,
 				CC9BE271173D443C00518C9C /* Reptiles */,
 				CC9BE258173D3E1300518C9C /* Birds */,
@@ -620,6 +626,8 @@
 				CC9BE287173D476400518C9C /* teleskop@2x.png in Resources */,
 				CC9BE288173D476400518C9C /* zolotaya.png in Resources */,
 				CC9BE289173D476400518C9C /* zolotaya@2x.png in Resources */,
+				CCDD5C8E173FADC100FFC636 /* zoo_map.png in Resources */,
+				CCDD5C8F173FADC100FFC636 /* zoo_map@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

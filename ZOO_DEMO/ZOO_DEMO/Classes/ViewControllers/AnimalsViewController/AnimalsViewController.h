@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "DataManager.h"
 
+
 @interface AnimalsViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 {
     
 }
 @property (weak, nonatomic) IBOutlet UITableView *animalTableView;
-
-
+@property (strong, nonatomic) DataManager *data;
+@property (strong, nonatomic) AnimalModel *model;
 @end
