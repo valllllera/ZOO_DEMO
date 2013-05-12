@@ -54,7 +54,7 @@
 							<object class="IBUILabel" id="40561258">
 								<reference key="NSNextResponder" ref="1010442649"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{106, 42}, {145, 21}}</string>
+								<string key="NSFrame">{{106, 33}, {205, 30}}</string>
 								<reference key="NSSuperview" ref="1010442649"/>
 								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>

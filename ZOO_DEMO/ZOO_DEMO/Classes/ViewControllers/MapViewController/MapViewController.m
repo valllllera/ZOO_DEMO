@@ -46,9 +46,21 @@
     UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
     [infoButton addTarget:self action:@selector(infoButtonClick)forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:infoButton];
+    
+    _map.userInteractionEnabled = YES;
+    _twoFingerPinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(twoFingerPinch)];
+    
+    [_map addGestureRecognizer:_twoFingerPinch];
 }
 
-
+- (void)twoFingerPinch:(UIPinchGestureRecognizer *)recognizer
+{
+    if((recognizer.scale > 1.0f) && (recognizer.scale < 2.5f))
+    {
+        CGAffineTransform transform = CGAffineTransformMakeScale(recognizer.scale, recognizer.scale);
+        _map.transform = transform;
+    }
+}
 
 - (void)didReceiveMemoryWarning
 {

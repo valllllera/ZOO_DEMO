@@ -11,5 +11,6 @@
 @interface MapViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *map;
+@property (strong, nonatomic) UIPinchGestureRecognizer *twoFingerPinch;
 
 @end

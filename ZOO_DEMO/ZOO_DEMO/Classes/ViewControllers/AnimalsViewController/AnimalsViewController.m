@@ -8,6 +8,7 @@
 
 #import "AnimalsViewController.h"
 #import "AnimalCell.h"
+#import "InfoViewController.h"
 
 @interface AnimalsViewController ()
 
@@ -68,7 +69,6 @@
         cell = [[[NSBundle mainBundle] loadNibNamed:@"AnimalCell" owner:nil options:nil]objectAtIndex:0];
     }
     _model = [[DataManager sharedInstance].array objectAtIndex: indexPath.row + (indexPath.section * 6)];
-    NSLog(@"%@", indexPath);
     cell.nameLabel.text = _model.name;
     cell.imageView.image = [UIImage imageNamed:_model.imageName];
     return cell;
@@ -107,6 +107,17 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 97.0f;
+}
+
+-(void)infoButtonClick
+{
+    InfoViewController *infoViewController = [[InfoViewController alloc]init];
+    [UIView animateWithDuration:0.75
+                     animations:^{
+                         [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+                         [self.navigationController pushViewController:infoViewController animated:NO];
+                         [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.navigationController.view cache:NO];
+                     }];
 }
 
 #pragma mark - Actions

@@ -13,8 +13,6 @@
 		085AC92A173A7546000715A1 /* editButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC924173A7546000715A1 /* editButton@2x.png */; };
 		085AC92B173A7546000715A1 /* navigation_menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC925173A7546000715A1 /* navigation_menu_button.png */; };
 		085AC92C173A7546000715A1 /* navigation_menu_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC926173A7546000715A1 /* navigation_menu_button@2x.png */; };
-		085AC936173AA41A000715A1 /* AnimalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085AC935173AA41A000715A1 /* AnimalCell.xib */; };
-		085AC939173AA456000715A1 /* AnimalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085AC938173AA456000715A1 /* AnimalCell.m */; };
 		085AC93B173AAD3C000715A1 /* zookh_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC93A173AAD3B000715A1 /* zookh_logo.png */; };
 		085AC93E173AB30F000715A1 /* tabbar_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC93C173AB30D000715A1 /* tabbar_map.png */; };
 		085AC93F173AB30F000715A1 /* tabbar_map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085AC93D173AB30D000715A1 /* tabbar_map@2x.png */; };
@@ -22,6 +20,8 @@
 		8C3CB28C1737C61100F57852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28B1737C61100F57852 /* UIKit.framework */; };
 		8C3CB28E1737C61100F57852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28D1737C61100F57852 /* Foundation.framework */; };
 		8C3CB2901737C61100F57852 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28F1737C61100F57852 /* CoreGraphics.framework */; };
+		CC299213173FDA5800BE1833 /* AnimalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC299211173FDA5800BE1833 /* AnimalCell.m */; };
+		CC299214173FDA5800BE1833 /* AnimalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC299212173FDA5800BE1833 /* AnimalCell.xib */; };
 		CC9BE21A173D207200518C9C /* AnimalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9BE219173D207200518C9C /* AnimalModel.m */; };
 		CC9BE228173D2B9F00518C9C /* 220px-Medved_mzoo.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9BE224173D2B9F00518C9C /* 220px-Medved_mzoo.png */; };
 		CC9BE229173D2B9F00518C9C /* 220px-Medved_mzoo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9BE225173D2B9F00518C9C /* 220px-Medved_mzoo@2x.png */; };
@@ -99,9 +99,6 @@
 		085AC924173A7546000715A1 /* editButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "editButton@2x.png"; sourceTree = "<group>"; };
 		085AC925173A7546000715A1 /* navigation_menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_menu_button.png; sourceTree = "<group>"; };
 		085AC926173A7546000715A1 /* navigation_menu_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_menu_button@2x.png"; sourceTree = "<group>"; };
-		085AC935173AA41A000715A1 /* AnimalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalCell.xib; sourceTree = SOURCE_ROOT; };
-		085AC937173AA456000715A1 /* AnimalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalCell.h; sourceTree = SOURCE_ROOT; };
-		085AC938173AA456000715A1 /* AnimalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalCell.m; sourceTree = SOURCE_ROOT; };
 		085AC93A173AAD3B000715A1 /* zookh_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zookh_logo.png; sourceTree = "<group>"; };
 		085AC93C173AB30D000715A1 /* tabbar_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_map.png; sourceTree = "<group>"; };
 		085AC93D173AB30D000715A1 /* tabbar_map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_map@2x.png"; sourceTree = "<group>"; };
@@ -111,6 +108,9 @@
 		8C3CB28B1737C61100F57852 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C3CB28D1737C61100F57852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C3CB28F1737C61100F57852 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC299210173FDA5800BE1833 /* AnimalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalCell.h; path = AnimalCell/AnimalCell.h; sourceTree = "<group>"; };
+		CC299211173FDA5800BE1833 /* AnimalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalCell.m; path = AnimalCell/AnimalCell.m; sourceTree = "<group>"; };
+		CC299212173FDA5800BE1833 /* AnimalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AnimalCell.xib; path = AnimalCell/AnimalCell.xib; sourceTree = "<group>"; };
 		CC9BE218173D207200518C9C /* AnimalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalModel.h; path = ZOO_DEMO/Classes/AnimalModel.h; sourceTree = SOURCE_ROOT; };
 		CC9BE219173D207200518C9C /* AnimalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalModel.m; path = ZOO_DEMO/Classes/AnimalModel.m; sourceTree = SOURCE_ROOT; };
 		CC9BE224173D2B9F00518C9C /* 220px-Medved_mzoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "220px-Medved_mzoo.png"; path = "Animals/220px-Medved_mzoo.png"; sourceTree = "<group>"; };
@@ -209,9 +209,9 @@
 		085AC934173AA3F9000715A1 /* AnimalCell */ = {
 			isa = PBXGroup;
 			children = (
-				085AC937173AA456000715A1 /* AnimalCell.h */,
-				085AC938173AA456000715A1 /* AnimalCell.m */,
-				085AC935173AA41A000715A1 /* AnimalCell.xib */,
+				CC299210173FDA5800BE1833 /* AnimalCell.h */,
+				CC299211173FDA5800BE1833 /* AnimalCell.m */,
+				CC299212173FDA5800BE1833 /* AnimalCell.xib */,
 			);
 			name = AnimalCell;
 			sourceTree = "<group>";
@@ -574,7 +574,6 @@
 				085AC92A173A7546000715A1 /* editButton@2x.png in Resources */,
 				085AC92B173A7546000715A1 /* navigation_menu_button.png in Resources */,
 				085AC92C173A7546000715A1 /* navigation_menu_button@2x.png in Resources */,
-				085AC936173AA41A000715A1 /* AnimalCell.xib in Resources */,
 				085AC93B173AAD3C000715A1 /* zookh_logo.png in Resources */,
 				085AC93E173AB30F000715A1 /* tabbar_map.png in Resources */,
 				085AC93F173AB30F000715A1 /* tabbar_map@2x.png in Resources */,
@@ -628,6 +627,7 @@
 				CC9BE289173D476400518C9C /* zolotaya@2x.png in Resources */,
 				CCDD5C8E173FADC100FFC636 /* zoo_map.png in Resources */,
 				CCDD5C8F173FADC100FFC636 /* zoo_map@2x.png in Resources */,
+				CC299214173FDA5800BE1833 /* AnimalCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,9 +646,9 @@
 				D55DE13E1738005400F1A8BC /* MapViewController.m in Sources */,
 				D55DE1441738007400F1A8BC /* InfoViewController.m in Sources */,
 				D55DE14A173800A900F1A8BC /* AnimalsViewController.m in Sources */,
-				085AC939173AA456000715A1 /* AnimalCell.m in Sources */,
 				088FCC6A173BD3B200D1794C /* DataManager.m in Sources */,
 				CC9BE21A173D207200518C9C /* AnimalModel.m in Sources */,
+				CC299213173FDA5800BE1833 /* AnimalCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
