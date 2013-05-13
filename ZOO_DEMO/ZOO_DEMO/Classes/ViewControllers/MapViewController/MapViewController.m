@@ -48,17 +48,44 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:infoButton];
     
     _map.userInteractionEnabled = YES;
-    _twoFingerPinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(twoFingerPinch)];
     
+    _twoFingerPinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(twoFingerPinch:)];
     [_map addGestureRecognizer:_twoFingerPinch];
+    
+    UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self                                                                                   action:@selector(pan:)];
+    [_map addGestureRecognizer:panGesture];
+    
 }
 
 - (void)twoFingerPinch:(UIPinchGestureRecognizer *)recognizer
 {
-    if((recognizer.scale > 1.0f) && (recognizer.scale < 2.5f))
+    if((recognizer.scale > 0.5f) && (recognizer.scale < 1.5f))
     {
         CGAffineTransform transform = CGAffineTransformMakeScale(recognizer.scale, recognizer.scale);
         _map.transform = transform;
+    }
+    /*else
+    {
+        CGAffineTransform transform = CGAffineTransformMakeScale(recognizer.scale * 0.75, recognizer.scale * 0.75);
+        _map.transform = transform;
+    }*/
+}
+
+- (void)pan:(UIPanGestureRecognizer *)recog
+{
+    NSLog(@"asd");
+    if (recog.state == UIGestureRecognizerStateChanged)
+    {
+        CGPoint translation = [recog translationInView:_map];
+        CGRect currentFrame = _map.frame;
+        currentFrame.origin.x = _map.frame.origin.x + translation.x;
+        currentFrame.origin.y = _map.frame.origin.y + translation.y;
+        if ((currentFrame.origin.x * 1.25 < 280) && (currentFrame.origin.x * 1.25 > -150) && (currentFrame.origin.y * 1.25 > -175) && (currentFrame.origin.y * 1.25 < 320))
+        {
+            _map.frame = currentFrame;
+        }
+        
+        [recog setTranslation:CGPointZero inView:_map.superview];
     }
 }
 
