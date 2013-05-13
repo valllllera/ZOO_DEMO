@@ -59,7 +59,7 @@
 
 - (void)twoFingerPinch:(UIPinchGestureRecognizer *)recognizer
 {
-    if((recognizer.scale > 0.5f) && (recognizer.scale < 1.5f))
+    if((recognizer.scale > 0.9f) && (recognizer.scale < 1.6f))
     {
         CGAffineTransform transform = CGAffineTransformMakeScale(recognizer.scale, recognizer.scale);
         _map.transform = transform;
@@ -80,7 +80,7 @@
         CGRect currentFrame = _map.frame;
         currentFrame.origin.x = _map.frame.origin.x + translation.x;
         currentFrame.origin.y = _map.frame.origin.y + translation.y;
-        if ((currentFrame.origin.x * 1.25 < 280) && (currentFrame.origin.x * 1.25 > -150) && (currentFrame.origin.y * 1.25 > -175) && (currentFrame.origin.y * 1.25 < 320))
+        if ((currentFrame.origin.x < 260) && (currentFrame.origin.x > -100) && (currentFrame.origin.y > -80) && (currentFrame.origin.y < 270))
         {
             _map.frame = currentFrame;
         }

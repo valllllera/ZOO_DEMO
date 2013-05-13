@@ -9,6 +9,7 @@
 #import "AnimalsViewController.h"
 #import "AnimalCell.h"
 #import "InfoViewController.h"
+#import "AnimalInfoViewController.h"
 
 @interface AnimalsViewController ()
 
@@ -74,6 +75,13 @@
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    AnimalInfoViewController *animalInfoViewController = [[AnimalInfoViewController alloc] initWithAnimalModel: [[DataManager sharedInstance].array  objectAtIndex:indexPath.row + indexPath.section * 6]];
+    
+    [self.navigationController pushViewController:animalInfoViewController animated:YES];
+}
+
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 4;
@@ -117,7 +125,7 @@
                          [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
                          [self.navigationController pushViewController:infoViewController animated:NO];
                          [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.navigationController.view cache:NO];
-                     }];
+    }];
 }
 
 #pragma mark - Actions

@@ -20,6 +20,10 @@
 		8C3CB28C1737C61100F57852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28B1737C61100F57852 /* UIKit.framework */; };
 		8C3CB28E1737C61100F57852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28D1737C61100F57852 /* Foundation.framework */; };
 		8C3CB2901737C61100F57852 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3CB28F1737C61100F57852 /* CoreGraphics.framework */; };
+		CC18FEFF17413D82008DCABD /* AnimalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC18FEFD17413D82008DCABD /* AnimalInfoViewController.m */; };
+		CC18FF0017413D82008DCABD /* AnimalInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC18FEFE17413D82008DCABD /* AnimalInfoViewController.xib */; };
+		CC18FF0417413FD2008DCABD /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CC18FF0217413FD2008DCABD /* play.png */; };
+		CC18FF0517413FD2008DCABD /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC18FF0317413FD2008DCABD /* play@2x.png */; };
 		CC299213173FDA5800BE1833 /* AnimalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC299211173FDA5800BE1833 /* AnimalCell.m */; };
 		CC299214173FDA5800BE1833 /* AnimalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC299212173FDA5800BE1833 /* AnimalCell.xib */; };
 		CC9BE21A173D207200518C9C /* AnimalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9BE219173D207200518C9C /* AnimalModel.m */; };
@@ -108,6 +112,11 @@
 		8C3CB28B1737C61100F57852 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C3CB28D1737C61100F57852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C3CB28F1737C61100F57852 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC18FEFC17413D82008DCABD /* AnimalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalInfoViewController.h; path = AnimalsInfoVewController/AnimalInfoViewController.h; sourceTree = "<group>"; };
+		CC18FEFD17413D82008DCABD /* AnimalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalInfoViewController.m; path = AnimalsInfoVewController/AnimalInfoViewController.m; sourceTree = "<group>"; };
+		CC18FEFE17413D82008DCABD /* AnimalInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AnimalInfoViewController.xib; path = AnimalsInfoVewController/AnimalInfoViewController.xib; sourceTree = "<group>"; };
+		CC18FF0217413FD2008DCABD /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		CC18FF0317413FD2008DCABD /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		CC299210173FDA5800BE1833 /* AnimalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalCell.h; path = AnimalCell/AnimalCell.h; sourceTree = "<group>"; };
 		CC299211173FDA5800BE1833 /* AnimalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalCell.m; path = AnimalCell/AnimalCell.m; sourceTree = "<group>"; };
 		CC299212173FDA5800BE1833 /* AnimalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AnimalCell.xib; path = AnimalCell/AnimalCell.xib; sourceTree = "<group>"; };
@@ -263,6 +272,16 @@
 			path = ZOO_DEMO;
 			sourceTree = "<group>";
 		};
+		CC18FF0117413D93008DCABD /* AnimalInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC18FEFC17413D82008DCABD /* AnimalInfoViewController.h */,
+				CC18FEFD17413D82008DCABD /* AnimalInfoViewController.m */,
+				CC18FEFE17413D82008DCABD /* AnimalInfoViewController.xib */,
+			);
+			name = AnimalInfoViewController;
+			sourceTree = "<group>";
+		};
 		CC9BE223173D2B6F00518C9C /* Animals */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,6 +431,7 @@
 			isa = PBXGroup;
 			children = (
 				D55DE1461738009500F1A8BC /* AnimalsViewController */,
+				CC18FF0117413D93008DCABD /* AnimalInfoViewController */,
 				D55DE1401738006100F1A8BC /* InfoViewController */,
 				D55DE13A1738004100F1A8BC /* MapViewController */,
 				D55DE1341737FF7E00F1A8BC /* QRViewController */,
@@ -438,6 +458,8 @@
 		D55DE1231737FD4D00F1A8BC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CC18FF0217413FD2008DCABD /* play.png */,
+				CC18FF0317413FD2008DCABD /* play@2x.png */,
 				CCDD5C8C173FADC100FFC636 /* zoo_map.png */,
 				CCDD5C8D173FADC100FFC636 /* zoo_map@2x.png */,
 				CC9BE28A173D476B00518C9C /* Fishes */,
@@ -628,6 +650,9 @@
 				CCDD5C8E173FADC100FFC636 /* zoo_map.png in Resources */,
 				CCDD5C8F173FADC100FFC636 /* zoo_map@2x.png in Resources */,
 				CC299214173FDA5800BE1833 /* AnimalCell.xib in Resources */,
+				CC18FF0017413D82008DCABD /* AnimalInfoViewController.xib in Resources */,
+				CC18FF0417413FD2008DCABD /* play.png in Resources */,
+				CC18FF0517413FD2008DCABD /* play@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +674,7 @@
 				088FCC6A173BD3B200D1794C /* DataManager.m in Sources */,
 				CC9BE21A173D207200518C9C /* AnimalModel.m in Sources */,
 				CC299213173FDA5800BE1833 /* AnimalCell.m in Sources */,
+				CC18FEFF17413D82008DCABD /* AnimalInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
